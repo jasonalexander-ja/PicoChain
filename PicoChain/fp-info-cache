@@ -1,4 +1,4 @@
-23764200015144807
+23767647215125868
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64651,6 +64651,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM1085IS-12
+TO254P1524X483-4N
+
+
+0
+4
+4
 MCU_RaspberryPi_and_Boards
 Crystal_SMD_HC49-US
 SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
@@ -85504,6 +85511,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RASPBERRY_PI_PICO
+RASPBERRY_PI_PICO
+
+
+0
+40
+40
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
