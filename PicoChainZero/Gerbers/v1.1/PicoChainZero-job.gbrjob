@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2024-08-22T06:16:07+01:00"
+    "CreationDate": "2024-08-22T23:27:10+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PicoChainBase",
-      "GUID": "5069636f-4368-4616-996e-426173652e6b",
-      "Revision": "rev?"
+      "Name": "PicoChainZero",
+      "GUID": "5069636f-4368-4616-996e-5a65726f2e6b",
+      "Revision": "v1.1"
     },
     "Size": {
       "X": 60.05,
@@ -27,44 +27,44 @@
       "PadToPad": 0.1473,
       "PadToTrack": 0.1473,
       "TrackToTrack": 0.1473,
-      "MinLineWidth": 0.254,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.254,
       "RegionToRegion": 0.254
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "PicoChainBase-F_Cu.gtl",
+      "Path": "PicoChainZero-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoChainBase-B_Cu.gbl",
+      "Path": "PicoChainZero-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoChainBase-F_Silkscreen.gto",
+      "Path": "PicoChainZero-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoChainBase-B_Silkscreen.gbo",
+      "Path": "PicoChainZero-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoChainBase-F_Mask.gts",
+      "Path": "PicoChainZero-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PicoChainBase-B_Mask.gbs",
+      "Path": "PicoChainZero-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PicoChainBase-Edge_Cuts.gm1",
+      "Path": "PicoChainZero-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

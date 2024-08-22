@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2024-08-22T06:11:57+01:00"
+    "CreationDate": "2024-08-22T22:45:39+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "PicoChainReference",
       "GUID": "5069636f-4368-4616-996e-526566657265",
-      "Revision": "rev?"
+      "Revision": "v1.1"
     },
     "Size": {
       "X": 60.0254,

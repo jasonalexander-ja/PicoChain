@@ -5251,6 +5251,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 53.34) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00f2f9b-9370-42b9-b23f-d77c81fab1be")
+	)
+	(wire
+		(pts
 			(xy 102.87 53.34) (xy 102.87 54.61)
 		)
 		(stroke
@@ -8144,6 +8154,72 @@
 			(project "PicoChainReference"
 				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb042952-f5e0-4ad0-beff-47294cc4002a")
+		(property "Reference" "#PWR024"
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.918 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599f6cd0-db4a-403b-8066-0461781cd40b")
+		)
+		(instances
+			(project "PicoChainZero"
+				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

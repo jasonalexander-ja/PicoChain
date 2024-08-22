@@ -1351,12 +1351,12 @@
 			(uuid "66211f12-0c44-49d6-b1fb-8332fc15167c")
 		)
 		(fp_text user "Raspberry Pi Pico"
-			(at 13.663056 -12.054914 0)
+			(at 0.0114 15.5994 0)
 			(layer "F.SilkS")
 			(uuid "655a40b5-94b9-42f9-a667-172aa6ce9ed5")
 			(effects
 				(font
-					(size 2 2)
+					(size 1.75 1.75)
 					(thickness 0.15)
 				)
 			)
