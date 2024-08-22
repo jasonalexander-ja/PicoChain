@@ -7,6 +7,14 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "PicoChainZero Reference Device Implementation")
+		(date "2024-08-22")
+		(rev "v1.1")
+		(comment 2 "http://www.tapr.org/OHL")
+		(comment 3 "Licence: The TAPR Open Hardware License")
+		(comment 4 "Author: Jason Alexander")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
