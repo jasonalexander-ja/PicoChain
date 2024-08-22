@@ -12,6 +12,7 @@ All hardware reference implementations are in KiCAD 8+ format with the PCB layou
 - [PicoChainATtiny85](/PicoChainATtiny85); Another reference design using the ATtiny85 and breaking out a pin header for a servo. 
 - [PicoChainReference](/PicoChainReference); A generic reference design breaking out the power and I2C to pin headers, this can be easily adapted to what ever purpose is desired. 
 - [PicoChainZero](/PicoChainZero); A reference design using the Raspberry Pi Zero as a I2C controller, breaks out the Pi Zero's serial to a USB-C connector. 
+- [PicoChainTerminator](/PicoChainTerminator); A reference design for a termination endpoint device, one of these needs to be present at the start and end of a chain. 
 
 
 ## Design Overview 
