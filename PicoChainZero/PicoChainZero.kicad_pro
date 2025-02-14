@@ -180,7 +180,6 @@
       "track_widths": [
         0.0,
         0.254,
-        0.381,
         0.508,
         0.762,
         1.016
@@ -449,14 +448,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PicoChainZero.kicad_pro",
+    "filename": "PicoChainReference.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.14732,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -484,7 +483,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/v1.1/",
+      "plot": "Gerbers/v1.2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
