@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,22 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|131257000|55547000|207074e8-998b-4640-af3f-7efebb94bb2f|1913c95f-7be0-4bdc-89a4-5cb048b36541",
+        "clearance|131257000|56897000|51a472ca-2eb4-4cc5-993c-2d472ec67d7f|76d3ee93-0195-4920-b5bc-2b197e5c2393",
+        "clearance|132107000|55547000|1913c95f-7be0-4bdc-89a4-5cb048b36541|c3a60358-c9ce-4f86-83bb-c71e36dca3da",
+        "clearance|132107000|56897000|cc2c17ae-0af1-4603-a25a-15d10f79afec|51a472ca-2eb4-4cc5-993c-2d472ec67d7f",
+        "clearance|132957000|55547000|c3a60358-c9ce-4f86-83bb-c71e36dca3da|4528d307-55cc-4397-b352-a230867fa8d0",
+        "clearance|132957000|56897000|270d71d8-c213-4d7c-b461-fb033f68233c|cc2c17ae-0af1-4603-a25a-15d10f79afec",
+        "clearance|133807000|55547000|4528d307-55cc-4397-b352-a230867fa8d0|14aa1e35-a7dd-4704-b7b0-94afbdf0c330",
+        "clearance|133807000|56897000|7322a19f-89f4-4913-8d4d-793f3ad9a7f8|270d71d8-c213-4d7c-b461-fb033f68233c",
+        "clearance|134657000|55547000|14aa1e35-a7dd-4704-b7b0-94afbdf0c330|9250500b-697f-435b-ac62-351a4b968f7a",
+        "clearance|134657000|56897000|356e2802-381c-4362-abf7-00a36bed2194|7322a19f-89f4-4913-8d4d-793f3ad9a7f8",
+        "clearance|135507000|55547000|9250500b-697f-435b-ac62-351a4b968f7a|37ce04ae-5a52-4e1e-8fd6-8b9825c790e7",
+        "clearance|135507000|56897000|2b1998dc-c210-4373-bc10-0da716431acc|356e2802-381c-4362-abf7-00a36bed2194",
+        "clearance|136357000|55547000|37ce04ae-5a52-4e1e-8fd6-8b9825c790e7|53b90861-9b6e-43cf-81f1-53c076952221",
+        "clearance|136357000|56897000|6dc6dd85-0659-4803-bffb-0169b7efb62e|2b1998dc-c210-4373-bc10-0da716431acc"
+      ],
       "meta": {
         "version": 2
       },
@@ -180,6 +195,7 @@
       "track_widths": [
         0.0,
         0.254,
+        0.381,
         0.508,
         0.762,
         1.016
@@ -448,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PicoChainReference.kicad_pro",
+    "filename": "PicoChainZero.kicad_pro",
     "version": 1
   },
   "net_settings": {

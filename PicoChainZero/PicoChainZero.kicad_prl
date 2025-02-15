@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffef_fffffff9",
+    "visible_layers": "fffffff_fffffff9",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PicoChainReference.kicad_prl",
+    "filename": "PicoChainZero.kicad_prl",
     "version": 3
   },
   "project": {
