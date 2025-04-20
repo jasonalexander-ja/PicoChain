@@ -1,6 +1,6 @@
 # PicoChain
 
-PicoChain is a simple standard for creating daisy chains of connected devices, allowing I2C and power to be easily distributed out using ethernet patch cables. 
+Pico(Daisy)Chain is a simple standard for creating daisy chains of connected devices, allowing I2C and power to be easily distributed out using ethernet patch cables. 
 
 This is a repository containing documentation and reference hardware + software implementations. 
 
@@ -8,8 +8,6 @@ All hardware reference implementations are in KiCAD 8+ format with the PCB layou
 
 ### Contents: 
 
-- [PicoChain](/PicoChain); The reference device using the Raspberry Pi Pico (RP2040) as a device. 
-- [PicoChainATtiny85](/PicoChainATtiny85); Another reference design using the ATtiny85 and breaking out a pin header for a servo. 
 - [PicoChainReference](/PicoChainReference); A generic reference design breaking out the power and I2C to pin headers, this can be easily adapted to what ever purpose is desired. 
 - [PicoChainZero](/PicoChainZero); A reference design using the Raspberry Pi Zero as a I2C controller, breaks out the Pi Zero's serial to a USB-C connector. 
 - [PicoChainTerminator](/PicoChainTerminator); A reference design for a termination endpoint device, one of these needs to be present at the start and end of a chain. 
@@ -33,10 +31,10 @@ Generally, this is designed for running sequences across some connected devices,
 |--------------|--------------|
 | **1**        | GND          |
 | **2**        | +24V         |
-| **3**        | DSCLM        |
-| **4**        | DSCLP        |
-| **5**        | DSDAP        |
-| **6**        | DSDAM        |
+| **3**        | DSDAM        |
+| **4**        | DSCLM        |
+| **5**        | DSCLP        |
+| **6**        | DSDAP        |
 | **7**        | GND          |
 | **8**        | +12V         |
 
