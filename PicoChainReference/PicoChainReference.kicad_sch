@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PicoChain Generic Reference Device Implementation")
-		(date "2024-08-22")
+		(date "2025-04-21")
 		(rev "v1.2")
 		(comment 2 "http://www.tapr.org/OHL")
 		(comment 3 "Licence: The TAPR Open Hardware License")
@@ -2807,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 97.79) (xy 100.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523b7371-7eed-4314-9579-8a727c9582d7")
+	)
+	(wire
+		(pts
 			(xy 99.06 87.63) (xy 100.33 87.63)
 		)
 		(stroke
@@ -2944,6 +2954,16 @@
 			(type default)
 		)
 		(uuid "6fd4919c-f939-419c-a39d-4fb1ec59269d")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 100.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73368741-f0f5-4fce-aa64-bf0e16fd8d65")
 	)
 	(wire
 		(pts
@@ -3287,13 +3307,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 100.33 97.79)
+			(xy 107.95 113.03) (xy 109.22 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c562da82-9db1-433f-aecf-ca5ac69aa26a")
+		(uuid "c584b5bb-6a89-4713-9dfb-b6111d0d7f13")
 	)
 	(wire
 		(pts
@@ -3457,16 +3477,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 100.33 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0d3c6c8-b33d-4c05-b333-b2f9b56bdd57")
-	)
-	(wire
-		(pts
 			(xy 113.03 69.85) (xy 118.11 69.85)
 		)
 		(stroke
@@ -3474,6 +3484,16 @@
 			(type default)
 		)
 		(uuid "f395a017-a245-4304-80a4-d003e9a7e162")
+	)
+	(wire
+		(pts
+			(xy 107.95 97.79) (xy 109.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92b7e74-2abc-462d-a340-32b3d4d2144e")
 	)
 	(wire
 		(pts
@@ -4504,72 +4524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 100.33 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38b830e7-2015-499e-aeb0-3e276fcce7db")
-		(property "Reference" "#PWR010"
-			(at 96.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 99.06 111.506 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f46303cf-d2a1-46a0-8461-4dce6d73702c")
-		)
-		(instances
-			(project "PicoChainReference"
-				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 71.12 88.9 0)
 		(unit 1)
@@ -5005,6 +4959,74 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
+		(at 104.14 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4db6bbe5-93f0-49b7-aab6-e8bce45ea6e7")
+		(property "Reference" "F3"
+			(at 104.14 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 104.14 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 104.14 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0888403d-e1b4-42fb-8234-46b2527ebdae")
+		)
+		(pin "1"
+			(uuid "78afa1d4-9a96-4e43-91df-b9734828a06e")
+		)
+		(instances
+			(project "PicoChainReference"
+				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
 		(at 104.14 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5336,6 +5358,72 @@
 			(project "PicoChainReference"
 				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 109.22 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a359ab-a554-4d36-9a1d-215e7c55bdb4")
+		(property "Reference" "#PWR010"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 106.68 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68d782de-4d78-4817-bab6-86624d6b9ba7")
+		)
+		(instances
+			(project "PicoChainReference"
+				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5825,6 +5913,74 @@
 			(project "PicoChainReference"
 				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 104.14 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9da72846-31c4-446a-9706-e157d34bb9b0")
+		(property "Reference" "F4"
+			(at 104.14 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 104.14 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 104.14 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86aa088e-3c91-44e7-9c1b-bcaffec52945")
+		)
+		(pin "1"
+			(uuid "7702e9a5-d058-4e4e-a848-fb38450b94b0")
+		)
+		(instances
+			(project "PicoChainReference"
+				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -6369,15 +6525,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 100.33 97.79 270)
+		(at 109.22 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fbd2c7aa-d321-4685-b189-80843b9713d6")
-		(property "Reference" "#PWR04"
-			(at 96.52 97.79 0)
+		(uuid "fd1edf13-09e6-4163-8f59-d796ab1be0d1")
+		(property "Reference" "#PWR024"
+			(at 105.41 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6542,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 99.06 96.266 90)
+			(at 106.68 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 97.79 0)
+			(at 109.22 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 97.79 0)
+			(at 109.22 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 100.33 97.79 0)
+			(at 109.22 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,12 +6578,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "36710644-c809-47d6-b7ea-2807c471cd80")
+			(uuid "98f568f2-7cf9-48aa-8522-b1bc324fc538")
 		)
 		(instances
 			(project "PicoChainReference"
 				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
-					(reference "#PWR04")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

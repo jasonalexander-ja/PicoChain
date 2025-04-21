@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "PicoChain Terminator Reference Device Implementation")
-		(date "2024-08-22")
+		(date "2025-04-21")
 		(rev "v1.2")
 		(comment 1 "http://www.tapr.org/OHL")
 		(comment 2 "Licence: The TAPR Open Hardware License")

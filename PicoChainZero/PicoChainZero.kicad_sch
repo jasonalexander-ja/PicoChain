@@ -5,8 +5,8 @@
 	(uuid "bf05c66b-7ba7-46d1-8dac-29939cd00b00")
 	(paper "A4")
 	(title_block
-		(title "PicoChain Generic Reference Device Implementation")
-		(date "2024-08-22")
+		(title "PicoChain RPi Reference Device Implementation")
+		(date "2025-04-21")
 		(rev "v1.2")
 		(comment 2 "http://www.tapr.org/OHL")
 		(comment 3 "Licence: The TAPR Open Hardware License")
