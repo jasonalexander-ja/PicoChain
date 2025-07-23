@@ -8607,76 +8607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 97.79 41.91 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10b7bc6a-36a4-4722-a07e-3c9ce4dd9951")
-		(property "Reference" "C9"
-			(at 99.06 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 95.758 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 93.98 40.9448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 97.79 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d99f5d03-e6ab-4432-b4a9-6d6cee51fd18")
-		)
-		(pin "2"
-			(uuid "9fefb940-47cf-4916-8dcc-03426da0f071")
-		)
-		(instances
-			(project "PicoChainZero"
-				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 77.47 97.79 0)
 		(unit 1)
@@ -10972,6 +10902,73 @@
 			(project "PicoChainZero"
 				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e0577ae-4a6d-4eb0-881f-9254d2c3f408")
+		(property "Reference" "C13"
+			(at 100.838 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 95.758 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 101.6 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dd29a08-e17d-43f9-8eef-ce189400efb2")
+		)
+		(pin "1"
+			(uuid "025c8823-dcb9-4841-929d-b8762dc690a9")
+		)
+		(instances
+			(project "PicoChainZero"
+				(path "/bf05c66b-7ba7-46d1-8dac-29939cd00b00"
+					(reference "C13")
 					(unit 1)
 				)
 			)
